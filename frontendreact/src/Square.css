@@ -1,17 +1,30 @@
+/* Square.css */
 .square {
-    background: #f9f9f9;
-    border: 2px solid #333;
-    font-size: 32px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
     font-weight: bold;
-    line-height: 60px;
-    height: 60px;
-    width: 60px;
-    margin: 3px;
-    text-align: center;
     cursor: pointer;
-    transition: background 0.3s ease-in-out;
-}
-
-.square:hover {
-    background: #ddd;
-}
+    background-color: #f4f4f4;
+  }
+  
+  .square:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .square.taken {
+    background-color: #f5b7b1;
+  }
+  
+  .square.x {
+    color: #ff5733;
+  }
+  
+  .square.o {
+    color: #3498db;
+  }
+  

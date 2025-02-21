@@ -1,4 +1,4 @@
-import '../css/Square.css'
+import './Square.css'
 export function Square(props){
   return (
     <button className="square" onClick={props.onClick}>{props.value}</button>
